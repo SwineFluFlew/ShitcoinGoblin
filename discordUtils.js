@@ -44,7 +44,7 @@ const sendDiscordMessage = async (token) => {
 
         //if (token.symbol) embed.addFields({ name: 'Symbol', value: token.symbol, inline: false });
        // if (token.decimals) embed.addFields({ name: 'Decimals', value: token.decimals, inline: false });
-        if (token.owner) embed.addFields({ name: 'Owner', value: token.owner, inline: false });
+        if (token.owner) embed.addFields({ name: 'Owner', value: `[${token.owner}](https://etherscan.io/address/${token.owner})`, inline: false });
         if (token.balance !== undefined) {
             embed.addFields({ name: balanceFieldTitle, value: `${token.balance} ETH`, inline: false });
         }
