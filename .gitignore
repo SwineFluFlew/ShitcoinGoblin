@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-# .gitignore
-
-# Ignore the node_modules directory
-node_modules/
-
-# Ignore environment files
-.env
-
-# Ignore package lock files (optional)
-package-lock.json
-=======
 # Logs
 logs
 *.log
@@ -140,4 +128,3 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
->>>>>>> origin/main
