@@ -35,7 +35,7 @@ _Below is an example of how you can instruct your audience on installing and set
    npm install
    ```
 4. Create a new `.env` file in your directory, and add the following variables.
-   ```js
+   ```sh
     INFURA_URL=https://mainnet.infura.io/v3/<ENTER YOUR INFURA API KEY>
     DISCORD_BOT_TOKEN=<ENTER YOUR DISCORD BOT TOKEN>
     DISCORD_CHANNEL_ID=<CENTER DISCORD CHANNEL ID>
